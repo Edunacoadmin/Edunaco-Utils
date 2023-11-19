@@ -1,0 +1,26 @@
+{
+  "name": "edunaco-utils",
+  "version": "0.0.1",
+  "description": "Edunaco utils",
+  "main": "dist/lib/index.js",
+  "types": "dist/lib/index.d.ts",
+  "scripts": {
+    "release": "git push --follow-tag && npm publish",
+    "build": "npx tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Edunacoadmin/Edunaco-Utils.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Edunacoadmin/Edunaco-Utils/issues"
+  },
+  "homepage": "https://github.com/Edunacoadmin/Edunaco-Utils#readme",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "typescript": "^5.1.6"
+  }
+}
